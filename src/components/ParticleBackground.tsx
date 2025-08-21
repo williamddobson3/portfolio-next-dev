@@ -1,13 +1,11 @@
 import { useRef, useMemo } from 'react'
 import { useFrame } from '@react-three/fiber'
-import { Canvas, useThree } from '@react-three/fiber'
+import { Canvas } from '@react-three/fiber'
 import { Points, PointMaterial } from '@react-three/drei'
 import * as THREE from 'three'
 
 function ParticleField() {
   const ref = useRef<THREE.Points>(null)
-  const { size, viewport } = useThree()
-  const aspect = size.width / viewport.width
 
   const count = 5000
   const positions = useMemo(() => {

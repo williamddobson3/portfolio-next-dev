@@ -1,6 +1,6 @@
 import { useState, useMemo } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import { Filter, Grid, List, Search } from 'lucide-react'
+import { Grid, List, Search } from 'lucide-react'
 import { projects, Project } from '../data/projects'
 import ProjectCard from '../components/ProjectCard'
 

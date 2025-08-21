@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
-import { ExternalLink, Calendar, Clock, Users } from 'lucide-react'
+import { ExternalLink, Clock, Users } from 'lucide-react'
 import { Project } from '../data/projects'
 
 interface ProjectCardProps {
